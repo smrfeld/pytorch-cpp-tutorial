@@ -4,6 +4,13 @@ This is a minimal example of a Python package calling a custom PyTorch C++ modul
 
 ## Installing & running
 
+0. (Optional) Create a conda environment:
+
+    ```bash
+    conda create -n test-pytorch-cpp python=3.11
+    conda activate test-pytorch-cpp
+    ```
+
 1. Install requirements:
     ```bash
     pip install -r requirements.txt
